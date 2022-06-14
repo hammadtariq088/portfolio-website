@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  /* navbar */
+  .navbar a {
+    transition: 0.5s ease-in-out;
+  }
+  
+  .navbar a:active{
+    font-weight: 600;
+    transform: scale(1.2);
+  }
+  
+  .navbar a:hover {
+    transform: scale(1.2);
+    font-weight: 600;
+  }
+  
+  .nav-btn{
+    transition: 0.5s ease;
+  }
+  
+  .nav-btn:hover{
+    transform: scale(1.1);
+  }
+  /* home */
+  .home-hero{
+    background: black;
+  }
+  /* about */
+  .about{
+    background: black;
+  }
+  .pro{
+    position: absolute;
+    padding: 5px;
+    color: white;
+  }
+  .progress{
+    height: 30px !important;
+    transition: 0.5s ease;
+  }
+  .progress:hover{
+    transform: scale(1.1);
+  }
+  /* service */
+  .service{
+    background: black;
+  }
+  .card{
+    transition: 0.5s ease;
+  }
+  .card:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 10px #fff;
+    cursor: pointer;
+  }
+  .card img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+  /* contact */
+  .contact{
+    background: black;
+  }
+  
+  
