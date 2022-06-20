@@ -14,7 +14,7 @@ export default function About() {
                 </div>
                 <div className="row p-5">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center py-3">
-                        <img src="./assets/hero-img.png" className='' alt="hero-img" />
+                        <img src="assets/hero-img.png" className='' alt="hero-img" />
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 py-3">
                         <h2 className='display-5 mb-3 text-white align-self-start '>John Smith</h2>
